@@ -15,6 +15,7 @@ namespace FileManagerComandsList
         /// <summary>
         /// Автоматически создает лист команд
         /// </summary>
+        /// 
         private void SetComandsList()
         {
             Assembly asm = Assembly.LoadFrom("FileManagerComandsList.dll");
